@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashboard | Italy Visa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <div class="logo-area">
+      <img src="logo.svg" alt="logo" class="logo-sm">
+      <h2 class="brand-name" data-i18n="brand">Italy Humanitarian Visa</h2>
+    </div>
+    <nav class="links" id="sideLinks">
+      <h4 data-i18n="mainMenu">Main Menu</h4>
+      <ul>
+        <li><a data-key="dashboard">Dashboard</a></li>
+        <hr>
+        <li class="section-title"><a data-key="applicationForm">APPLICATION FORM</a></li>
+        <li class="sub-item"><a data-key="complete">Complete Application Form</a></li>
+        <li class="sub-item"><a data-key="passport">Upload Passport</a></li>
+        <li class="sub-item"><a data-key="photo">Upload Photo</a></li>
+        <li class="sub-item"><a data-key="idDocs">Upload ID Documents</a></li>
+        <hr>
+        <li class="section-title"><a data-key="supportingEvidence">SUPPORTING EVIDENCE</a></li>
+        <li class="sub-item"><a data-key="unhcr">View UNHCR Registration Letter</a></li>
+        <li class="sub-item"><a data-key="danger">Upload Danger/Threat Evidence</a></li>
+        <li class="sub-item"><a data-key="residency">Upload Residency Documents</a></li>
+        <li class="sub-item"><a data-key="education">Upload Education/Work Documents</a></li>
+        <hr>
+        <li class="section-title"><a data-key="interviewManagement">INTERVIEW MANAGEMENT</a></li>
+        <li class="sub-item"><a data-key="appointment">Appointment Details</a></li>
+        <li class="sub-item"><a data-key="payment">Confirm Fee Payment (€)</a></li>
+        <li class="sub-item"><a data-key="fingerprint">Upload Fingerprint</a></li>
+        <li class="sub-item"><a data-key="status">Track Application Status</a></li>
+        <hr>
+        <li class="section-title"><a data-key="finalDecision">FINAL DECISION</a></li>
+        <li class="sub-item"><a data-key="checklist">Final Review Checklist</a></li>
+        <li class="sub-item"><a data-key="guide">Interview Guide & FAQs</a></li>
+        <li class="sub-item"><a data-key="result">Final Result</a></li>
+        <li class="sub-item"><a data-key="visaLetter">Download Visa Letter</a></li>
+        <hr>
+        <li class="section-title"><a data-key="unhcrSection">UNHCR SECTION</a></li>
+        <li class="sub-item"><a data-key="initialRequests">Initial Requests</a></li>
+        <li class="sub-item"><a data-key="initialReceipts">Initial Receipts</a></li>
+        <li class="sub-item"><a data-key="requiredDocs">Required Documents (Upload)</a></li>
+        <li class="sub-item"><a data-key="finalResult">Final Result</a></li>
+        <hr>
+        <li class="section-title"><a data-key="paymentFeeSection">PAYMENT FEE SECTION</a></li>
+        <li class="sub-item"><a data-key="total">Payments (Total)</a></li>
+        <li class="sub-item"><a data-key="interviewFee">Interview Fee Payment</a></li>
+        <li class="sub-item"><a data-key="visaFee">Visa Fee Payment</a></li>
+        <li class="sub-item"><a data-key="receipt">Download Payment Receipt</a></li>
+        <hr>
+        <li class="section-title"><a data-key="supportSection">HELP AND SUPPORT</a></li>
+        <li class="sub-item"><a data-key="refund">Refund Payment</a></li>
+        <li class="sub-item"><a data-key="email">Email Support Team</a></li>
+        <li class="sub-item"><a data-key="telegram">Contact via Telegram</a></li>
+        <hr>
+        <h4 data-i18n="account">Account</h4>
+        <li><a data-key="overview">Overview</a></li>
+        <li><a data-key="message">Message</a></li>
+        <li><a data-key="settings">Settings</a></li>
+        <li><a id="logoutLink" data-key="logout">Logout</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content" id="mainContent">
+    <header class="topbar">
+      <div class="left">
+        <button id="toggleLang" class="btn small">فارسی / EN</button>
+      </div>
+      <div class="right">
+        <div id="userWelcome" class="user-welcome"></div>
+      </div>
+    </header>
+
+    <section class="panel" id="panelArea">
+      <h2 data-i18n="welcome">Welcome</h2>
+      <p data-i18n="welcomeDesc">Select an item from the sidebar to get started.</p>
+    </section>
+  </main>
+
+<script src="script.js"></script>
+</body>
+</html>
